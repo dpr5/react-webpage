@@ -23,25 +23,17 @@ export default class Main extends React.Component {
             </div>
             <div className="main-page-content">
               <div className="navbar">
-                <nav>
-                  <ul>
-                    <li>
-                      <NavLink className="navlinks" to="/home">
-                        Home
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="navlinks" to="/about">
-                        About
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="navlinks" to="/users">
-                        Users
-                      </NavLink>
-                    </li>
-                  </ul>
-                </nav>
+                <NavLink className="navlinks" to="/home">
+                  Home
+                </NavLink>
+
+                <NavLink className="navlinks" to="/about">
+                  About
+                </NavLink>
+
+                <NavLink className="navlinks" to="/users">
+                  Users
+                </NavLink>
               </div>
 
               {/* A <Switch> looks through its children <Route>s and

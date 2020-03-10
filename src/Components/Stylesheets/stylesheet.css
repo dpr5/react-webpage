@@ -44,10 +44,11 @@ ul {
 }
 
 .navlinks {
-  display: inline;
+  display: block;
   color: white;
   padding: 3px;
   text-decoration: none;
+  text-align: left;
 }
 
 .content {
